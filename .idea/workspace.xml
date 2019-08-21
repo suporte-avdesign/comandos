@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ec0aa38-61f2-42df-bbfa-1abadc1605c1" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/deploy/site-demo1.md" afterPath="$PROJECT_DIR$/deploy/site.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/site.md" afterPath="$PROJECT_DIR$/deploy/site.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/deploy/site.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="126" column="27" lean-forward="false" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
+              <first_editor relative-caret-position="2124">
+                <caret line="118" column="19" lean-forward="true" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -53,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Hosts/GoogleCloud/console-google-cloud.md" />
         <option value="$PROJECT_DIR$/Mysql/mysql.md" />
         <option value="$PROJECT_DIR$/Server/deploy-com-git.md" />
         <option value="$PROJECT_DIR$/Hosts/Firebase/install-whatsapp.md" />
@@ -104,6 +103,7 @@
         <option value="$PROJECT_DIR$/PagSeguro/laravel.md" />
         <option value="$PROJECT_DIR$/deploy/site-demo-1.md" />
         <option value="$PROJECT_DIR$/deploy/site-demo1.md" />
+        <option value="$PROJECT_DIR$/deploy/site.md" />
       </list>
     </option>
   </component>
@@ -342,12 +342,12 @@
       <workItem from="1566051896524" duration="7314000" />
       <workItem from="1566219841456" duration="5937000" />
       <workItem from="1566278335897" duration="6025000" />
-      <workItem from="1566369682397" duration="866000" />
+      <workItem from="1566369682397" duration="1105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326293000" />
+    <option name="totallyTimeSpent" value="326532000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -877,8 +877,8 @@
     <entry file="file://$PROJECT_DIR$/deploy/site.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="126" column="27" lean-forward="false" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
+          <first_editor relative-caret-position="2124">
+            <caret line="118" column="19" lean-forward="true" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
             <folding />
           </first_editor>
           <second_editor />

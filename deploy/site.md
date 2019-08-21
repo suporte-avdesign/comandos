@@ -98,8 +98,8 @@ Criar o arquivo <strong>.env</strong> e digitar as configurações necessárias.
 
 <div id='mysql'/>
 
-##Segurança do Mysql<br>
-Digitar os seguintes comandos:
+## Segurança do Mysql<br>
+* Digitar os seguintes comandos:
 ````
 # mysql_secure_installation
 
@@ -118,7 +118,7 @@ Digitar os seguintes comandos:
 ````
 <div id='storage'/>
 
-##Permissões recomendadas<br>
+## Permissões recomendadas<br>
 * Define o usuário atual como proprietário e o usuário do servidor web como o grupo
 ````
 sudo chown -R $USER:www-data storage
