@@ -35,7 +35,7 @@ Da permissão para o arquivo
 <div id='config-local'/>
 
 ## Configuração Local<br>
-Adicionar git remote no projeto:
+Adicionar git remote no projeto dos sites:
 
 ```
 $ git init
