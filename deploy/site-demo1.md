@@ -37,6 +37,9 @@ Da permissão para o arquivo
 ## Configuração Local<br>
 Adicionar git remote no projeto dos sites:
 
+
+
+
 ```
 $ git init
 $ git add .
