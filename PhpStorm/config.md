@@ -26,6 +26,7 @@ http://idea.imsxm.com
 * **[*Ctrl+J*](#)**: Seleciona textos semelhantes
 * **[*Ctrl+Shift+F*](#)**: Buscar textos em todo o projeto
 * **[*Info Métodos*](#)**: Ctrl Segurando mostra o path, clicando abrir o arquivo
+* **[*Alt+Insert*](#)**: 
 
 
  

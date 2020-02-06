@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-qpuiv="X-UA-Compatible" content="ID=edge">
+    <meta name="viewport" content="width=device-width, inticial-scale=1">
+    <title>Dados do Noivo</title>
+    <style>
+        /* CSS Reset */
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            box-sizing: border-box;
+            outline: none;
+            font-weight: normal;
+        }
+
+        body {
+            background: #90caf9;
+            font-family: "Segoe UI","Microsoft YaHei";
+        }
+
+        h3 {
+            margin-top: 10px;
+            color: #3498DB;
+        }
+
+        p {
+            margin-top: 10px;
+            color: #343526;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .tabs {
+            background: #fff;
+            position: relative;
+        }
+
+        .tabs > input,
+        .tabs > span {
+            width: 20%;
+            height: 60px;
+            line-height: 60px;
+            position: absolute;
+            top: 0;
+        }
+
+        .tabs > input {
+            cursor: pointer;
+            filter: alpha(opacity=0);
+            opacity: 0;
+            position: absolute;
+            z-index: 99;
+        }
+
+        .tabs > span {
+            background: #f0f0f0;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .tabs > span i,
+        .tabs > span {
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+        }
+
+        .tabs > input:hover + span {
+            background: rgba(255,255,255,.1);
+        }
+
+        .tabs > input:checked + span {
+            background: #fff;
+        }
+
+        .tabs > input:checked + span,
+        .tabs > input:hover + span {
+            color: #3498DB;
+        }
+
+        #tab-1, #tab-1 + span {
+            left: 0;
+        }
+
+        #tab-2, #tab-2 + span {
+            left: 20%;
+        }
+
+        #tab-3, #tab-3 + span {
+            left: 40%;
+        }
+
+        .tab-content {
+            padding: 80px 20px 20px;
+            width: 100%;
+            min-height: 340px;
+        }
+
+        .tab-content section {
+            width: 100%;
+            display: none;
+        }
+
+        #tab-1:checked ~ .tab-content #tab-item-1  {
+            display: block;
+        }
+
+        #tab-2:checked ~ .tab-content #tab-item-2  {
+            display: block;
+        }
+
+        #tab-3:checked ~ .tab-content #tab-item-3  {
+            display: block;
+        }
+        /* icasei */
+
+        .icasei span i{
+            padding-right: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .icasei span span {display: none;}
+            .icasei span i {padding: 0;}
+        }
+
+
+
+        #tab-1:checked ~ .line {
+            left: 0;
+        }
+
+        #tab-2:checked ~ .line {
+            left: 20%;
+        }
+
+        #tab-3:checked ~ .line {
+            left: 40%;
+        }
+
+        #tab-4:checked ~ .line {
+            left: 60%;
+        }
+
+        #tab-5:checked ~ .line {
+            left: 80%;
+        }
+
+
+        #tab-item-2 ul.list {
+            margin-top: 10px;
+        }
+
+        #tab-item-2 ul > li {
+            list-style-type: circle;
+            margin: 10px;
+            left:  10px;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="tabs icasei">
+        <!-- tab-title -->
+        <input type="radio" id="tab-1" name="tab" checked="checked">
+        <span href="#tab-item-1">
+				<i class="fa fa-user"></i><span>Dados do Noivo</span>
+			</span>
+
+        <input type="radio" id="tab-2" name="tab">
+        <span href="#tab-item-2">
+            <i class="fa fa-calendar"></i><span>Detalhes do site</span>
+		</span>
+
+        <input type="radio" id="tab-3" name="tab">
+        <span href="#tab-item-3">
+            <i class="fa fa-book"></i><span>Lista de Presentes</span>
+		</span>
+        <!-- tab-content -->
+        <div class="tab-content">
+            <section id="tab-item-1">
+                <p>Nome: <strong>Anselmo Velame</strong></p>
+                <p>Email: <strong>design@anselmovelame.com.br</strong></p>
+                <p>Telefone: <strong>(11) 96938-4849</strong></p>
+                <p>WhatsApp: <strong>(11) 96938-4849</strong></p>
+            </section>
+            <section id="tab-item-2">
+                <p>Total de visitas: <strong>145</strong></p>
+                <p>Total de presentes recebidos: <strong>60</strong></p>
+                <!-- Mensagens -->
+                <h3 class="">Últimas 3 mensagens</h3>
+                <ul class="list" v-for="message of messages">
+                    <!-- Condicional<li v-if="<=3"> </li> -->
+                    <li>Esta tela ficaria bacana com Vue.js|Realtime</li>
+                    <li>O noivo não precisaria atualizar a página</li>
+                    <li>Como foi apenas um teste, falta estilizar os conteudos</li>
+                </ul>
+            </section>
+            <section id="tab-item-3">
+                <h3>Lista de todos os presentes recebidos</h3>
+                <ul class="list" v-for="product of products">
+                    <li>Esta tela ficaria bacana com Vue.js|Realtime</li>
+                    <li>Eu listaria os produtos por ordem decrescente</li>
+                    <li>Também faria uma paginação...</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</div>
+</body>
+</html>

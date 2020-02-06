@@ -4,7 +4,7 @@
  2. [Configuração Local](#config-local)
  3. [Aumentar Memória (opcional)](#memory)
  4. [Instalação no Servidor](#install)
- 4. [Mysql](#msql)
+ 4. [Mysql](#mysql)
 
 *******
 <div id='config-server'/>
