@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ec0aa38-61f2-42df-bbfa-1abadc1605c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Docker/config.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka/config.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/config.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhpStorm/config.md" beforeDir="false" afterPath="$PROJECT_DIR$/PhpStorm/config.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/site.md" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/site.md" afterDir="false" />
-    </list>
+    <list default="true" id="1ec0aa38-61f2-42df-bbfa-1abadc1605c1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,12 +323,12 @@
       <workItem from="1574298326169" duration="952000" />
       <workItem from="1574337925114" duration="633000" />
       <workItem from="1574340718593" duration="941000" />
-      <workItem from="1580989050055" duration="1169000" />
+      <workItem from="1580989050055" duration="1778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="414332000" />
+    <option name="totallyTimeSpent" value="414941000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
