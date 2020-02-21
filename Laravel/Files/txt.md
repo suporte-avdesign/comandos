@@ -1,6 +1,8 @@
 ##Veja a documentação:
 
-https://laravel.com/docs/5.8/filesystem
+* https://laravel.com/docs/5.8/filesystem
+* https://laravel-docs-pt-br.readthedocs.io/en/latest/filesystem/
+
 
 * Abaixo  um exemplo na camada view com blade:
 ````
@@ -34,3 +36,7 @@ config/filesystems.php
   'driver' => 'local',
   'root' => storage_path('app'),
 ````
+
+* Video Manipulação 
+
+* https://www.youtube.com/watch?v=VVn56JlX2-s
