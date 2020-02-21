@@ -1,8 +1,8 @@
-Veja a documentação:
+##Veja a documentação:
 
 https://laravel.com/docs/5.8/filesystem
 
-Abaixo segue um exemplo na camada view com blade:
+* Abaixo  um exemplo na camada view com blade:
 ````
 @php
   $exists = \Storage::disk('local')->exists('test.txt');
@@ -18,17 +18,17 @@ Abaixo segue um exemplo na camada view com blade:
 ```
 php artisan storage:link
 ````
-Desta forma você cria um link simbólico e deve colocar o arquivo a ser lido no seguinte diretório:
+* Desta forma você cria um link simbólico e deve colocar o arquivo a ser lido no seguinte diretório:
 ````
 storage/app
 ````
 
-Caso queira alterar este diretório deve alterar o arquivo abaixo:
+* Caso queira alterar este diretório deve alterar o arquivo abaixo:
 ````
 config/filesystems.php
 ````
 
-A constante abaixo:
+* A constante abaixo:
 ````
 'local' => [
   'driver' => 'local',
